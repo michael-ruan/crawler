@@ -3,7 +3,7 @@
 `crawler` is a crawler program that using `BeautifulSoup` and `urllib2`.
 I use it to catch information from www.douban.com (豆瓣) and www.zhihu.com (知乎).
 
-`douban_spider/book_spider.py` is the crawler program to get book list for a particular the key.
+`douban_spider/book_spider.py` is the crawler program to get book list for a particular the keyword. It needs one parameter, for example, `$python book_spider.py bigdata`.
 
 `douban_spider/bloom_filter.py` is a simple bloom filter, it needs two parameters, `size of array` and `number of probes`.
 
